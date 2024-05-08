@@ -8,4 +8,15 @@ Note: The code will be released upon acceptance of the paper.
 Recent research in provably secure neural linguistic steganography has overlooked a crucial aspect: the sender must detokenize stegotexts to avoid raising suspicion from the eavesdropper. The segmentation ambiguity problem, which arises when using subword models, leads to occasional decoding failures in all neural language steganography implementations based on these models. Current solutions to this issue involve altering the probability distribution of candidate words, rendering them incompatible with provably secure steganography. In this paper, we introduce a novel grouped sampling approach that effectively addresses the segmentation ambiguity problem. We experimentally demonstrate the applicability of our solution to various models and provably secure steganography methods, showcasing its potential to significantly improve the reliability and security of neural linguistic steganography systems.
 
 ## Citation
+
+## BibTeX
+
+```bibtex
+@article{qi2024provably,
+  title={Provably Secure Disambiguating Neural Linguistic Steganography},
+  author={Qi, Yuang and Chen, Kejiang and Zeng, Kai and Zhang, Weiming and Yu, Nenghai},
+  journal={arXiv preprint arXiv:2403.17524},
+  year={2024}
+}
+```
 Please cite it if you find the repository helpful.
